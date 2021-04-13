@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "constructoraUdeC", "constructoraUdeC.vbproj", "{3A534F9F-70ED-479B-B3AE-FB946A58094F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 View", "1.1 View", "{8ACBB154-AFBD-41F1-9E8B-2987FDDEEA50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 Web Service", "1.2 Web Service", "{70B7BA0D-FDD6-4514-B5F1-2B0EF3DB196B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Model", "3. Model", "{0ADDCC5C-99C4-455B-BC37-D3B5B32BEA7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Controller", "2. Controller", "{E389EB87-74D3-4D30-9579-0F414229D64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "constructoraModel", "..\constructoraModel\constructoraModel.csproj", "{DFC5A368-5166-4BA7-896D-20BD4F097182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructoraController", "..\ConstructoraController\ConstructoraController.csproj", "{39FBCDD1-C421-4F7C-9394-61B62F940A09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,22 @@ Global
 		{3A534F9F-70ED-479B-B3AE-FB946A58094F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A534F9F-70ED-479B-B3AE-FB946A58094F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A534F9F-70ED-479B-B3AE-FB946A58094F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC5A368-5166-4BA7-896D-20BD4F097182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC5A368-5166-4BA7-896D-20BD4F097182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC5A368-5166-4BA7-896D-20BD4F097182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC5A368-5166-4BA7-896D-20BD4F097182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FBCDD1-C421-4F7C-9394-61B62F940A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FBCDD1-C421-4F7C-9394-61B62F940A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FBCDD1-C421-4F7C-9394-61B62F940A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FBCDD1-C421-4F7C-9394-61B62F940A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A534F9F-70ED-479B-B3AE-FB946A58094F} = {8ACBB154-AFBD-41F1-9E8B-2987FDDEEA50}
+		{DFC5A368-5166-4BA7-896D-20BD4F097182} = {0ADDCC5C-99C4-455B-BC37-D3B5B32BEA7B}
+		{39FBCDD1-C421-4F7C-9394-61B62F940A09} = {E389EB87-74D3-4D30-9579-0F414229D64A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3777195A-86E3-427D-B92C-0009AD54E7A0}
